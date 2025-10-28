@@ -15,13 +15,14 @@ Project consists of a setting up a functional Active Directory server in a virtu
 <h2>Environments Used </h2>
 
 - <b>Windows 2022 Server</b>
-- <b>Windows 10</b>
+- <b>Windows 10 Pro</b>
 
 <h2>Lab Walk-through:</h2>
 
 <p align="center">
 Setting up Virtualbox: <br/>
-<img src="https://i.imgur.com/jZ1LlNh.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/GUM7cAu.png" height="80%" width="80%"/>
+<h2> 
 <br />
 <br />
 Select the disk:  <br/>
