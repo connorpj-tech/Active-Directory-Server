@@ -19,35 +19,24 @@ Project consists of a setting up a functional Active Directory server in a virtu
 
 <h2>Lab Walk-through:</h2>
 
-<p align="center">
-Setting up Virtualbox: <br/>
-<img src="https://i.imgur.com/GUM7cAu.png" height="80%" width="80%"/>
-<h2> 
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+**1. Setting up Virtualbox**
+
+- <b> Select New to create a new virtual machine </b>
+- <b> Name: Active Directory, Type: Microsoft Windows, Version: Windows Server 2025 (64-bit) </b>
+- <b> Click on Hardware.  Allocate at least 4GB of Base Memore along with 2 processors </b>
+- <b> Click on Hard Disk.  Allocate at least 30GB </b>
+- <b> Click finish </b>
+<div align="left">
+  <table>
+    <tr>
+      <td><img width="400" src="https://i.imgur.com/GUM7cAu.png" /></td>
+      <td><img width="400" src="https://i.imgur.com/esCpSbH.png" /></td>
+      <td><img width="400" src="https://i.imgur.com/SfPFR8u.png" /></td>
+    </tr>
+       <td align="center"><b>Launching Virtual Box</b></td>
+       <td align="center"><b>Hardware Configuration</b></td>
+       <td align="center"><b>Hard Disk Configuration</b></td>
+
 
 <!--
  ```diff
