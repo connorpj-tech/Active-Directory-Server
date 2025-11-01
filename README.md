@@ -36,6 +36,19 @@ Project consists of a setting up a functional Active Directory server in a virtu
        <td align="center"><b>Launching Virtual Box</b></td>
        <td align="center"><b>Hardware Configuration</b></td>
        <td align="center"><b>Hard Disk Configuration</b></td>
+       </tr>
+  </table>
+</div>
+
+**2. Setting up Network Configuration**
+
+- <b> Click on Settings on the main screen </b>
+- <b> Toggle on Expert and click on Network
+- <b> Click on Adapter 2 and checkmark Enable Network Adapater
+- <b> Attached to: Internal Network
+- <b> Click okay
+<p align="left">
+<img src="https://i.imgur.com/gv7PzLy.png" height="50%" width="50%" 
 
 
 <!--
