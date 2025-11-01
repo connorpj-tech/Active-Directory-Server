@@ -47,8 +47,14 @@ Project consists of a setting up a functional Active Directory server in a virtu
 - <b> Click on Adapter 2 and checkmark Enable Network Adapater
 - <b> Attached to: Internal Network
 - <b> Click okay
-<p align="left">
-<img src="https://i.imgur.com/gv7PzLy.png" height="50%" width="50%" 
+<p align="center">
+ <table>
+    <tr>
+      <td><img width="400" alt="Configuring Network" src="https://i.imgur.com/gv7PzLy.png" /></td>
+    </tr>
+       <td align_"center"><b> Configuring Network</b></td>
+       </tr>
+ </table>
 
 
 <!--
