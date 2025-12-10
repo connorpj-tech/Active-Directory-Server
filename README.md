@@ -29,11 +29,11 @@ Project consists of a setting up a functional Active Directory server in a virtu
 <div align="left">
   <table>
     <tr>
-      <td><img width="400" src="https://imgur.com/pwXy7AM" /></td>
+      <td><img width="400" src="" /></td>
       <td><img width="400" src="https://i.imgur.com/esCpSbH.png" /></td>
       <td><img width="400" src="https://i.imgur.com/SfPFR8u.png" /></td>
     </tr>
-       <td align="center"><b>Launching Virtual Box</b></td>
+       <td align="center"><b>Launching KVM</b></td>
        <td align="center"><b>Hardware Configuration</b></td>
        <td align="center"><b>Hard Disk Configuration</b></td>
        </tr>
