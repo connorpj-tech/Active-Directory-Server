@@ -10,7 +10,7 @@ Project consists of a setting up a functional Active Directory server in a virtu
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-- <b>Virtualbox</b>
+- <b>KVM</b>
 
 <h2>Environments Used </h2>
 
@@ -19,7 +19,7 @@ Project consists of a setting up a functional Active Directory server in a virtu
 
 <h2>Lab Walk-through:</h2>
 
-**1. Setting up Virtualbox**
+**1. Setting up Virtulization With KVM**
 
 - <b> Select New to create a new virtual machine </b>
 - <b> Name: Active Directory, Type: Microsoft Windows, Version: Windows Server 2025 (64-bit) </b>
@@ -29,7 +29,7 @@ Project consists of a setting up a functional Active Directory server in a virtu
 <div align="left">
   <table>
     <tr>
-      <td><img width="400" src="https://i.imgur.com/GUM7cAu.png" /></td>
+      <td><img width="400" src="https://imgur.com/pwXy7AM" /></td>
       <td><img width="400" src="https://i.imgur.com/esCpSbH.png" /></td>
       <td><img width="400" src="https://i.imgur.com/SfPFR8u.png" /></td>
     </tr>
