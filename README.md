@@ -22,12 +22,9 @@ Project consists of a setting up a functional Active Directory server in a virtu
 **1. Setting up Virtulization With KVM**
 
 - <b> Select New to create a new virtual machine </b>
-- <b> Select local install media </b>
-- <b> Choose Microsoft Server 2022 ISO file</b>
-- <b> Allocate at least 2048MiB and 2 CPUs </b>
-- <b> Enable 40GiB of storage </b>
-- <b> Name: Windows_Server_2022 </b>
-- <b> Click on finish to start machine </b>
+- <b> Select local install media and chose Microsoft Server 2022 ISO file </b>
+- <b> Allocate at least 2048MiB and 2 CPUs.  Enable 40GiB for storage </b>
+- <b> Name: Windows_Server_2022, click finish to start machine </b>
 <div align="left">
   <table>
     <tr>
