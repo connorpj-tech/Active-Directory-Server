@@ -42,17 +42,18 @@ Project consists of a setting up a functional Active Directory server in a virtu
   </table>
 </div>
 
-**2. Setting up Network Configuration**
+**2. Installing Windows**
 
-- <b> Click on Settings on the main screen </b>
-- <b> Toggle on Expert and click on Network
-- <b> Click on Adapter 2 and checkmark Enable Network Adapater
-- <b> Attached to: Internal Network
-- <b> Click okay
+- <b> Select Install Windows Server</b>
+- <b> Select the Windows Server 2025 Standard Evaluation (Desktop Experience) </b>
+- <b> Select Disk 0 to install Windows onto </b>
+- <b> Click install </b>
+- <b> Create an Administrator password </b>
+- <b> Login as Administrator and start Windows </b>
 <p align="center">
  <table>
     <tr>
-      <td><img width="400" alt="Configuring Network" src="https://i.imgur.com/gv7PzLy.png" /></td>
+      <td><img width="400" alt="Configuring Network" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Installing%20Windows.png" /></td>
     </tr>
        <td align_"center"><b> Configuring Network</b></td>
        </tr>
