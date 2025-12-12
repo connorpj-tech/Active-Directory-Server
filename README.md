@@ -29,7 +29,7 @@ Project consists of a setting up a functional Active Directory server in a virtu
   <table>
     <tr>
       <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Create%20New%20Machine.png" /></td>
-      <td><img width="400" src="https://i.imgur.com/esCpSbH.png" /></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Hardware%20Configuration.png" /></td>
       <td><img width="400" src="https://i.imgur.com/SfPFR8u.png" /></td>
     </tr>
        <td align="center"><b>Launching KVM</b></td>
