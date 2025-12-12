@@ -30,7 +30,7 @@ Project consists of a setting up a functional Active Directory server in a virtu
     <tr>
       <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Create%20New%20Machine.png" /></td>
       <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Hardware%20Configuration.png" /></td>
-      <td><img width="400" src="https://i.imgur.com/SfPFR8u.png" /></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Storage%20Configuration.png" /></td>
     </tr>
        <td align="center"><b>Launching KVM</b></td>
        <td align="center"><b>Hardware Configuration</b></td>
@@ -39,7 +39,7 @@ Project consists of a setting up a functional Active Directory server in a virtu
   </table>
 </div>
 
-**2. Installing Windows**
+**2. Installing and configuring Windows Server**
 
 - <b> Select Install Windows Server</b>
 - <b> Select the Windows Server 2025 Standard Evaluation (Desktop Experience) </b>
