@@ -50,9 +50,9 @@ Project consists of a setting up a functional Active Directory server in a virtu
 <p align="center">
  <table>
     <tr>
-      <td><img width="400" alt="Configuring Network" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Installing%20Windows.png" /></td>
+      <td><img width="400" alt="Installing Windows" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Install%20Windows.png" /></td>
     </tr>
-       <td align_"center"><b> Configuring Network</b></td>
+       <td align_"center"><b> Installing Windows</b></td>
        </tr>
  </table>
 
