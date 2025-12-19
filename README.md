@@ -51,11 +51,39 @@ Project consists of a setting up a functional Active Directory server in a virtu
  <table>
     <tr>
       <td><img width="400" alt="Installing Windows" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Install%20Windows.png" /></td>
+      <td><img width="400" alt="Select Image" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Select%20Image.png"</td>
+      <td><img width="400" alt="Disk Partition" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Disk%20Partition.png"</td> 
+      <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Set%20Password.png" /></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Login%20As%20Administrator.png"</td>
     </tr>
-       <td align_"center"><b> Installing Windows</b></td>
+       <td align="center"><b> Installing Windows</b></td>
+       <td align="center"><b> Select Image</b>
+       <td align="center"><b> Disk Partition</b>
+       <td align="center"><b> Set Password</b>
+       <td align="center"><b> Login As Administrator</b> 
        </tr>
  </table>
 
+**3. Network Setup**
+
+- <b> Right click on Windows Icon and select device manager
+- <b> Click on Network and under actions select add legacy hardware
+- <b> Select from list and click on network adapters
+- <b> Manufactor: Microsoft, Model: Microsoft KM-Test.  Install
+- <b> Under View Network Connections, rename new interface "Internal", right click on new adapter and select properties
+- <b> Select properties for Internet Control Protocol 4
+- <b> Use the following IP address: 172.16.0.1, Subnet Mask: 255.255.255.0
+- <b> Use the following DNS server address: 127.0.0.1 and click ok </b>
+<p align="center">
+ <table>
+     <tr>
+      <td><img width="400" alt="Device Manager" src= </td>
+  </tr>
+ </table>
+ **4. Configuring Windows Server**
+
+- <b> Select Add Roles and Features
+- <b> Select Role Based
 
 <!--
  ```diff
