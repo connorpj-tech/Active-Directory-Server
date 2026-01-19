@@ -3,28 +3,27 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a setting up a functional Active Directory server in a virtualized environment.  This lab will demonstrate how to set up a domain controller, configuring network adapters, and connecting a client to the server.  Will also be using a Powershell script that will automatically create numerous user accounts and setting up group policies for users
+This SOP will demenstrate how to provision a Windows virtual machine in the cloud and configure an Active Directory server
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Languages and Utilities Used</h2
+                                 
+- <b>Microsoft Azure</b>
+- <b>Remmina (RDP client)</b>
+- <b>Windows Server 2025</b>
 
-- <b>PowerShell</b> 
-- <b>KVM</b>
+<h2>Key Steps:</h2>
 
-<h2>Environments Used </h2>
+**1. Setting up a Virtual Machine on Azure**
 
-- <b>Windows 2022 Server</b>
-- <b>Windows 10 Pro</b>
-
-<h2>Lab Walk-through:</h2>
-
-**1. Setting up Virtulization With KVM**
-
-- <b> Select New to create a new virtual machine </b>
-- <b> Select local install media and chose Microsoft Server 2022 ISO file </b>
-- <b> Allocate at least 2048MiB and 2 CPUs.  Enable 40GiB for storage </b>
-- <b> Name: Windows_Server_2022, click finish to start machine </b>
+- <b> In Azure start by creating a new Virtual Machine </b>
+- <b> For image, select Windows Server 2025 Datacenter -x64 Gen2 </b>
+- <b> Allocate at least 8MiB and 2 CPUs </b>
+- <b> Create a username and password for machine </b>
+- <b> Select port 3389 for RDP </b>
+- <b> For disk, select image default </b>
+- <b> Click Review + Create and launch the virtual machine
 <div align="left">
   <table>
     <tr>
@@ -41,9 +40,9 @@ Project consists of a setting up a functional Active Directory server in a virtu
 
 **2. Installing and configuring Windows Server**
 
-- <b> Select Install Windows Server</b>
-- <b> Select the Windows Server 2025 Standard Evaluation (Desktop Experience) </b>
-- <b> Select Disk 0 to install Windows onto </b>
+- <b> Go to the new resource and click connect.  Use the public IP to access the virtual machine using RDP client</b>
+- <b> Click on add roles and features to add Active Directory </b>
+- <b> Go through the wizard and select Active Directory Domain Services </b>
 - <b> Click install </b>
 - <b> Create an Administrator password </b>
 - <b> Login as Administrator and start Windows </b>
@@ -64,22 +63,20 @@ Project consists of a setting up a functional Active Directory server in a virtu
        </tr>
  </table>
 
-**3. Network Setup**
+**3. Promote to a Domain Controller**
 
-- <b> Right click on Windows Icon and select device manager
-- <b> Click on Network and under actions select add legacy hardware
-- <b> Select from list and click on network adapters
-- <b> Manufactor: Microsoft, Model: Microsoft KM-Test.  Install
-- <b> Under View Network Connections, rename new interface "Internal", right click on new adapter and select properties
-- <b> Select properties for Internet Control Protocol 4
-- <b> Use the following IP address: 172.16.0.1, Subnet Mask: 255.255.255.0
-- <b> Use the following DNS server address: 127.0.0.1 and click ok </b>
+- <b> Right click on Windows Icon and select system.  Change the PC name to DC (Domain Controller) </b>
+- <b> Restart machine, click on flag to promote this machine to a domain controller </b>
+- <b> Add new forest and name domain root mydomain.com </b>
+- <b> Create password </b>
+- <b> Keep everything default and click install </b>
 <p align="center">
  <table>
      <tr>
       <td><img width="400" alt="Device Manager" src= </td>
   </tr>
  </table>
+ 
  **4. Configuring Windows Server**
 
 - <b> Select Add Roles and Features
