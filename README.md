@@ -38,14 +38,11 @@ This SOP will demenstrate how to provision a Windows virtual machine in the clou
   </table>
 </div>
 
-**2. Installing and configuring Windows Server**
+**2. Connecting to Virtual Machine**
 
-- <b> Go to the new resource and click connect.  Use the public IP to access the virtual machine using RDP client</b>
-- <b> Click on add roles and features to add Active Directory </b>
-- <b> Go through the wizard and select Active Directory Domain Services </b>
-- <b> Click install </b>
-- <b> Create an Administrator password </b>
-- <b> Login as Administrator and start Windows </b>
+- <b> Under Virtual Machines in the Azure portal and click on WindowsServer2025.  Click on connect </b>
+- <b> In the RDP client copy the IP address and admin credentials </b>
+- <b> Click on Save + Connect to remote desktop into the VM </b>
 <p align="center">
  <table>
     <tr>
