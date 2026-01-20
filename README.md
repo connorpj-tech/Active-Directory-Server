@@ -47,23 +47,36 @@ This SOP will demenstrate how to provision a Windows virtual machine in the clou
  <table>
     <tr>
       <td><img width="400" alt="Connect" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Connect.png" /></td>
-      <td><img width="400" alt="Remote Desktop Config" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/RDP.png"</td>
-      <td><img width="400" alt="Disk Partition" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Disk%20Partition.png"</td> 
-      <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Set%20Password.png" /></td>
-      <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Login%20As%20Administrator.png"</td>
+      <td><img width="400" alt="Remote Desktop Configuration" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/RDP.png"</td>
     </tr>
        <td align="center"><b> Connect</b></td>
-       <td align="center"><b> Remote Desktop Config</b>
-       <td align="center"><b> Disk Partition</b>
-       <td align="center"><b> Set Password</b>
-       <td align="center"><b> Login As Administrator</b> 
+       <td align="center"><b> Remote Desktop Configuration</b>
        </tr>
  </table>
 
-**3. Promote to a Domain Controller**
+**3. Install Active Directory Domain Services**
 
-- <b> Right click on Windows Icon and select system.  Change the PC name to DC (Domain Controller) </b>
-- <b> Restart machine, click on flag to promote this machine to a domain controller </b>
+- <b> Right click on Windows Icon and click System </b>
+- <b> Rename machine DC </b>
+- <b> Under Manage, click on Add Roles and Features </b>
+- <b> In the wizard check Active Directory and Domain Services </b>
+- <b> Keep all defaults and install </b>
+<p alight="center">
+ <table>
+     <tr>
+       <td><img width="400" alt="Rename Machine" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Rename%20Machine.png" /></td>
+       <td><img width="400" alt="Roles And Services" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Roles%20and%20Features.png" /></td>
+       <td><img width="400" alt="Active Directory and Domain Services" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Active%20Directory%20Domain%20Services.png" /></td>
+     </tr>
+        <td align="center"><b> Rename Machine</b></td>
+        <td align="center"><b> Roles And Services</b></td>
+        <td align="center"><b> Active Directory and Domain Services</b></td>
+        </tr>
+ </table>
+
+**4. Promote to a Domain Controller**
+
+- <b> Once AD is installed, click on flag to promote this machine to a domain controller </b>
 - <b> Add new forest and name domain root mydomain.com </b>
 - <b> Create password </b>
 - <b> Keep everything default and click install </b>
