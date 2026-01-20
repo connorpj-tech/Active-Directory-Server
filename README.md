@@ -83,7 +83,10 @@ This SOP will demenstrate how to provision a Windows virtual machine in the clou
 <p align="center">
  <table>
      <tr>
-      <td><img width="400" alt="Device Manager" src= </td>
+      <td><img width="400" alt="Configure Domain Controller" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Promote%20to%20DC.png" /></td>
+     </tr>
+        <td align="center"><b> Configure Domain Controller</b>
+      
   </tr>
  </table>
  
