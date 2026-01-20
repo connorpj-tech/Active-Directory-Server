@@ -27,13 +27,13 @@ This SOP will demenstrate how to provision a Windows virtual machine in the clou
 <div align="left">
   <table>
     <tr>
-      <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Create%20New%20Machine.png" /></td>
-      <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Hardware%20Configuration.png" /></td>
-      <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Storage%20Configuration.png" /></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Create%20VM.png" /></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Create%20VM(1).png" /></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Disk.png" /></td>
     </tr>
-       <td align="center"><b>Launching KVM</b></td>
-       <td align="center"><b>Hardware Configuration</b></td>
-       <td align="center"><b>Hard Disk Configuration</b></td>
+       <td align="center"><b>Virtual Machine Image</b></td>
+       <td align="center"><b>Computing size/account</b></td>
+       <td align="center"><b>Disk Configuration</b></td>
        </tr>
   </table>
 </div>
@@ -49,14 +49,14 @@ This SOP will demenstrate how to provision a Windows virtual machine in the clou
 <p align="center">
  <table>
     <tr>
-      <td><img width="400" alt="Installing Windows" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Install%20Windows.png" /></td>
-      <td><img width="400" alt="Select Image" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Select%20Image.png"</td>
+      <td><img width="400" alt="Connect" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Connect.png" /></td>
+      <td><img width="400" alt="Remote Desktop Config" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/RDP.png"</td>
       <td><img width="400" alt="Disk Partition" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Disk%20Partition.png"</td> 
       <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Set%20Password.png" /></td>
       <td><img width="400" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Login%20As%20Administrator.png"</td>
     </tr>
-       <td align="center"><b> Installing Windows</b></td>
-       <td align="center"><b> Select Image</b>
+       <td align="center"><b> Connect</b></td>
+       <td align="center"><b> Remote Desktop Config</b>
        <td align="center"><b> Disk Partition</b>
        <td align="center"><b> Set Password</b>
        <td align="center"><b> Login As Administrator</b> 
