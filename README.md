@@ -7,7 +7,7 @@ This SOP will demenstrate how to deploy a Windows virtual machine in the cloud a
 <br />
 
 
-<h2>Languages and Utilities Used</h2
+<h2>Utilities Used</h2
                                  
 - <b>Microsoft Azure</b>
 - <b>Remmina (RDP client)</b>
