@@ -41,7 +41,7 @@ This SOP will demenstrate how to deploy a Windows virtual machine in the cloud a
 **2. Connecting to Virtual Machine**
 
 - <b> Under Virtual Machines in the Azure portal and click on WindowsServer2025.  Click on connect </b>
-- <b> In the RDP client copy the IP address and admin credentials </b>
+- <b> In Remmina copy the IP address and admin credentials </b>
 - <b> Click on Save + Connect to remote desktop into the VM </b>
 <div align="left">
  <table>
@@ -89,10 +89,6 @@ This SOP will demenstrate how to deploy a Windows virtual machine in the cloud a
       
   </tr>
  </table>
-
-**Takeaways**
-
-- <b> 
 
 
 <!--
