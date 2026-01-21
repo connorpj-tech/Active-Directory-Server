@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This SOP will demenstrate how to provision a Windows virtual machine in the cloud and configure an Active Directory server
+This SOP will demenstrate how to deploy a Windows virtual machine in the cloud and configure an Active Directory server for managing users in a company setting
 <br />
 
 
@@ -43,7 +43,7 @@ This SOP will demenstrate how to provision a Windows virtual machine in the clou
 - <b> Under Virtual Machines in the Azure portal and click on WindowsServer2025.  Click on connect </b>
 - <b> In the RDP client copy the IP address and admin credentials </b>
 - <b> Click on Save + Connect to remote desktop into the VM </b>
-<p align="center">
+<div align="left">
  <table>
     <tr>
       <td><img width="400" alt="Connect" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Connect.png" /></td>
@@ -61,7 +61,7 @@ This SOP will demenstrate how to provision a Windows virtual machine in the clou
 - <b> Under Manage, click on Add Roles and Features </b>
 - <b> In the wizard check Active Directory and Domain Services </b>
 - <b> Keep all defaults and install </b>
-<p alight="center">
+<div alight="left">
  <table>
      <tr>
        <td><img width="400" alt="Rename Machine" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Rename%20Machine.png" /></td>
@@ -80,20 +80,20 @@ This SOP will demenstrate how to provision a Windows virtual machine in the clou
 - <b> Add new forest and name domain root mydomain.com </b>
 - <b> Create password </b>
 - <b> Keep everything default and click install </b>
-<p align="center">
+<div align="left">
  <table>
      <tr>
       <td><img width="400" alt="Configure Domain Controller" src="https://github.com/connorpj-tech/Active-Directory-Server/blob/main/Promote%20to%20DC.png" /></td>
      </tr>
-        <td align="center"><b> Configure Domain Controller</b>
+        <td align="left"><b> Configure Domain Controller</b>
       
   </tr>
  </table>
- 
- **4. Configuring Windows Server**
 
-- <b> Select Add Roles and Features
-- <b> Select Role Based
+**Takeaways**
+
+- <b> 
+
 
 <!--
  ```diff
